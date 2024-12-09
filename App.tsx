@@ -145,10 +145,12 @@ function App(): React.JSX.Element {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor:"#fff"
   },
   dataList: {
     flex: 1,
     padding: 10,
+    backgroundColor:"#fff"
   },
   cardBox: {
     backgroundColor: '#fff',
@@ -217,6 +219,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     borderTopWidth: 1,
     borderColor: '#ccc',
+    backgroundColor:"#fff"
   },
   bottomTabText: {
     fontSize: 18,
@@ -224,6 +227,7 @@ const styles = StyleSheet.create({
   },
   tabButton: {
     padding: 10,
+    backgroundColor:"#fff"
   },
 });
 
